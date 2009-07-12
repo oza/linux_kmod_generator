@@ -1,0 +1,22 @@
+-- Program name --
+kmod_dev_gen.rb
+
+-- What's this? --
+kmod_generator is a utility program to dump template source code for kernel module.
+You don't need write bothersome initializing code any more by using this plain script.
+
+This script dump with below features:
+	/dev virtual file.
+	fundamental methods( open, read, write, close, ioctl )
+
+usage:
+	kmod_generator module_name
+
+	module_name is a kernel module
+
+ToDo:
+  write how to register /dev file.
+
+-- auther info --
+written by Tsuyoshi Ozawa
+email: ozadev _at_ t-oza.net
